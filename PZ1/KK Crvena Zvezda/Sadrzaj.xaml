@@ -1,0 +1,100 @@
+﻿<Window x:Class="KK_Crvena_Zvezda.Sadrzaj"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KK_Crvena_Zvezda"
+        mc:Ignorable="d"
+        Title="Sadrzaj" Height="550" Width="800" WindowStyle="None" MouseLeftButtonDown="Window_MouseLeftButtonDown" Closing="Window_Closing" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style x:Key="ButtonTemplate" TargetType="Button">
+            <Setter Property="Background" Value="Red"/>
+            <Setter Property="Foreground" Value="white"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="5" BorderThickness="1" Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center">
+
+                            </ContentPresenter>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style TargetType="{x:Type DataGridCell}">
+            <Style.Triggers>
+                <Trigger Property="IsSelected" Value="True">
+                    <Setter Property="Background" Value="LightGray"/>
+                    <Setter Property="Foreground" Value="Black"/>
+                </Trigger>
+            </Style.Triggers>
+
+
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type DataGridCell}">
+                        <Grid Background="{TemplateBinding Background}">
+                            <ContentPresenter VerticalAlignment="Center"  HorizontalAlignment="Center"/>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    
+    <Grid>
+        
+        <Image Source="Slike/kkcz-logo.png" Height="60" Width="60" Margin="0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Label Content="Spisak igraca" HorizontalAlignment="Center" FontSize="40" FontFamily="Bahnschrift" FontWeight="Bold"  Margin="50 6 0 0 "/>
+
+        <DataGrid x:Name="dataGridIgraci" Height="400" Width="700" ItemsSource="{Binding listaIgraca}" AutoGenerateColumns="False" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserResizeRows="False" CanUserAddRows="False">
+            <DataGrid.Columns>
+                <DataGridCheckBoxColumn x:Name="checkBoxObrisi"  Width="0.5*">
+                    <DataGridCheckBoxColumn.ElementStyle>
+                        <Style>
+                            <EventSetter Event="CheckBox.Checked" Handler="OnChecked"/>
+                            <EventSetter Event="CheckBox.Unchecked" Handler="Unchecked"/>
+                        </Style>
+                    </DataGridCheckBoxColumn.ElementStyle>
+                </DataGridCheckBoxColumn>
+                
+
+                <DataGridHyperlinkColumn Header="Ime igraca" Width="2*" Binding="{Binding ImePrezime}"  IsReadOnly="True">
+                    <DataGridHyperlinkColumn.ElementStyle>
+                        <Style>
+                            <EventSetter Event="Hyperlink.Click" Handler="OnHyperlinkClick"/>
+                        </Style>
+                    </DataGridHyperlinkColumn.ElementStyle>
+                </DataGridHyperlinkColumn>
+                
+                <DataGridTemplateColumn Width="2*" Header="Slika">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Image Source="{Binding Slika}" Width="100" Height="100"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                
+                <DataGridTextColumn x:Name="dataGridDatum" Header="Datum dodavanja" Binding="{Binding DatumDodavanja}" Width="*" IsReadOnly="True" ></DataGridTextColumn>
+                     
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Rectangle Height="10" Margin="0 420 0 0">
+            <Rectangle.Fill>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Offset="0.0" Color="White"/>
+                    <GradientStop Offset="0.5" Color="red"/>
+                    <GradientStop Offset="1" Color="white"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <StackPanel Orientation="Horizontal" Height="50" VerticalAlignment="Bottom" Margin="5" HorizontalAlignment="Center">
+            <Button x:Name="btnDodajIgraca" Content="Dodaj igraca" Style="{StaticResource ButtonTemplate}" Click="btnDodajIgraca_Click" Margin="5 5 5 0" Width="150"></Button>
+            <Button x:Name="btnIzbrisigraca" Content="Obrisi igraca" Style="{StaticResource ButtonTemplate}" Click="btnIzbrisigraca_Click" Margin="5 5 5 0" Width="150"></Button>
+            <Button x:Name="btnIzlaz" Content="Odjavi se" Style="{StaticResource ButtonTemplate}" Click="btnIzlaz_Click" Margin="5 5 5 0" Width="150"></Button>
+        </StackPanel>
+    </Grid>
+</Window>

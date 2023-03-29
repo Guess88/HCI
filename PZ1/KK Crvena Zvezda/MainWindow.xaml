@@ -1,0 +1,80 @@
+﻿<Window x:Class="KK_Crvena_Zvezda.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KK_Crvena_Zvezda"
+        mc:Ignorable="d"
+        SizeToContent="WidthAndHeight" WindowStyle="None" AllowsTransparency="True" Background="Transparent" MouseLeftButtonDown="Window_MouseLeftButtonDown" WindowStartupLocation="CenterScreen">
+
+
+    <Window.Resources>
+        <Style x:Key="ButtonTemplate" TargetType="Button">
+            <Setter Property="Background" Value="Red"/>
+            <Setter Property="Foreground" Value="white"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="5" BorderThickness="1" Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center">
+
+                            </ContentPresenter>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    
+    <Canvas Width="600" Height="400" >
+
+        <Path Stroke="Gray" StrokeThickness="2" Name="PathUI">
+            <Path.Fill>
+                <ImageBrush ImageSource="Slike/login.jpg" Stretch="Fill"></ImageBrush>
+            </Path.Fill>
+            <Path.Data>
+                <PathGeometry >
+                    <PathFigure StartPoint="30,0">
+                        <ArcSegment Size="30,30" RotationAngle="50"  IsLargeArc="False" SweepDirection="Counterclockwise" Point="0,30" />
+                        <LineSegment Point="0 370"/>
+                        <ArcSegment Size="30,30" RotationAngle="50"  IsLargeArc="False" SweepDirection="Counterclockwise" Point="30,400" />
+                        <LineSegment Point="570,400"/>
+                        <ArcSegment Size="30,30" RotationAngle="50"  IsLargeArc="False" SweepDirection="Counterclockwise" Point="600,370" />
+                        <LineSegment Point="600,30"/>
+                        <ArcSegment Size="30,30" RotationAngle="50"  IsLargeArc="False" SweepDirection="Counterclockwise" Point="570,0" />
+                        <LineSegment Point="30,0"/>
+                    </PathFigure>
+                </PathGeometry>
+            </Path.Data>
+        </Path>
+
+
+        <Border Width="600" Height="50" CornerRadius="30 30 0 0" BorderThickness="0 0 0 1" BorderBrush="Gray">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="Slike/kkcz-logo.png" Width="60" Margin="0"></Image>
+                <Label Content="KK Crvena zvezda" VerticalAlignment="Center" FontSize="25" FontFamily="Consolas" FontWeight="Bold"/>
+
+                <Button x:Name="btnMinimize" BorderThickness="0" Background="White" Height="40" Width="40" Margin="210 0 0 0" Click="btnMinimize_Click">
+                    <Image Source="Slike/m.png"></Image>
+                </Button>
+
+                <Button x:Name="btnClose" BorderThickness="0" Background="White" Height="40" Width="40" MouseEnter="btnClose_MouseEnter" MouseLeave="btnClose_MouseLeave" Click="btnClose_Click">
+                    <Image x:Name="imgClose" Source="Slike/close-img1.png"></Image>
+                </Button>
+            </StackPanel>
+        </Border>
+
+        <Border Canvas.Left="0" Canvas.Top="50" Canvas.Bottom="0" Width="600" Height="350" CornerRadius="0 0 0 50">
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                <Label Content="Prijava" FontSize="30" FontFamily="Consolas" FontWeight="Bold" Margin="0 10 0 0" HorizontalAlignment="Center"></Label>
+                <TextBox x:Name="tbUsername"  Height="30"  Width="180" Margin="5 0 0 5" GotFocus="tbUsername_GotFocus" LostFocus="tbUsername_LostFocus" VerticalContentAlignment="Center"/>
+                <PasswordBox x:Name="PassowrdB"  Height="30"  Width="180" Margin="5 5 0 5" GotFocus="Passowrd_GotFocus" LostFocus="Passowrd_LostFocus" VerticalContentAlignment="Center"/>
+                <TextBox x:Name="tbPW" Height="30"  Width="180" Margin="5 -40 0 0 " GotFocus="tbPW_GotFocus" VerticalContentAlignment="Center"></TextBox>
+                <Button Name="btnLogin" Height="30"  Width="100" Margin="5 5 0 0" Style="{StaticResource ButtonTemplate}" Content="Prijavi se" Click="btnLogin_Click"></Button>
+            </StackPanel>
+        </Border>
+
+       
+
+    </Canvas>
+</Window>

@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<ArrayOfIgraci xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Igraci>
+    <BrojIgraca>0</BrojIgraca>
+    <Ime>John</Ime>
+    <Prezime>Holland</Prezime>
+    <Slika>pack://application:,,,/KK Crvena Zvezda;component/Slike/JohnHolland.png</Slika>
+    <File>JohnHolland.rtf</File>
+    <DatumDodavanja>2023-03-25T15:59:58.5386559+01:00</DatumDodavanja>
+    <Drzava>Amerika</Drzava>
+    <DatumRodjenja>1991-11-22T00:00:00</DatumRodjenja>
+    <Visina>196</Visina>
+  </Igraci>
+  <Igraci>
+    <BrojIgraca>1</BrojIgraca>
+    <Ime>Luca</Ime>
+    <Prezime>Vildoza</Prezime>
+    <Slika>pack://application:,,,/KK Crvena Zvezda;component/Slike/LucaVildoza.png</Slika>
+    <File>LucaVildoza.rtf</File>
+    <DatumDodavanja>2023-03-25T16:03:32.5844629+01:00</DatumDodavanja>
+    <Drzava>Argentina</Drzava>
+    <DatumRodjenja>1995-08-11T00:00:00</DatumRodjenja>
+    <Visina>191</Visina>
+  </Igraci>
+  <Igraci>
+    <BrojIgraca>2</BrojIgraca>
+    <Ime>Stefan</Ime>
+    <Prezime>Lazarevic</Prezime>
+    <Slika>pack://application:,,,/KK Crvena Zvezda;component/Slike/StefanLazarevic.png</Slika>
+    <File>StefanLazarevic.rtf</File>
+    <DatumDodavanja>2023-03-25T16:04:59.49542+01:00</DatumDodavanja>
+    <Drzava>Srbija</Drzava>
+    <DatumRodjenja>1996-08-20T00:00:00</DatumRodjenja>
+    <Visina>200</Visina>
+  </Igraci>
+  <Igraci>
+    <BrojIgraca>7</BrojIgraca>
+    <Ime>Facundo</Ime>
+    <Prezime>Campazzo</Prezime>
+    <Slika>pack://application:,,,/KK Crvena Zvezda;component/Slike/FacundoCampazzo.png</Slika>
+    <File>FacundoCampazzo.rtf</File>
+    <DatumDodavanja>2023-03-25T16:06:59.2950317+01:00</DatumDodavanja>
+    <Drzava>Argentina</Drzava>
+    <DatumRodjenja>1991-03-23T00:00:00</DatumRodjenja>
+    <Visina>180</Visina>
+  </Igraci>
+  <Igraci>
+    <BrojIgraca>9</BrojIgraca>
+    <Ime>Luka</Ime>
+    <Prezime>Mitrovic</Prezime>
+    <Slika>pack://application:,,,/KK Crvena Zvezda;component/Slike/LukaMitrovic.png</Slika>
+    <File>LukaMitrovic.rtf</File>
+    <DatumDodavanja>2023-03-29T14:23:54.7012817+02:00</DatumDodavanja>
+    <Drzava>Srbija</Drzava>
+    <DatumRodjenja>1991-03-21T00:00:00</DatumRodjenja>
+    <Visina>205</Visina>
+  </Igraci>
+  <Igraci>
+    <BrojIgraca>10</BrojIgraca>
+    <Ime>Branko</Ime>
+    <Prezime>Lazic</Prezime>
+    <Slika>pack://application:,,,/KK Crvena Zvezda;component/Slike/BrankoLazic.png</Slika>
+    <File>BrankoLazic.rtf</File>
+    <DatumDodavanja>2023-03-29T14:39:57.5549681+02:00</DatumDodavanja>
+    <Drzava>Srbija</Drzava>
+    <DatumRodjenja>1989-01-12T00:00:00</DatumRodjenja>
+    <Visina>195</Visina>
+  </Igraci>
+  <Igraci>
+    <BrojIgraca>12</BrojIgraca>
+    <Ime>Hassan</Ime>
+    <Prezime>Martin</Prezime>
+    <Slika>pack://application:,,,/KK Crvena Zvezda;component/Slike/HasanMartin.png</Slika>
+    <File>HassanMartin.rtf</File>
+    <DatumDodavanja>2023-03-29T14:43:54.9898918+02:00</DatumDodavanja>
+    <Drzava>SAD</Drzava>
+    <DatumRodjenja>1995-11-22T00:00:00</DatumRodjenja>
+    <Visina>201</Visina>
+  </Igraci>
+  <Igraci>
+    <BrojIgraca>13</BrojIgraca>
+    <Ime>Ognjen</Ime>
+    <Prezime>Dobric</Prezime>
+    <Slika>pack://application:,,,/KK Crvena Zvezda;component/Slike/OgnjenDobric.png</Slika>
+    <File>OgnjenDobric.rtf</File>
+    <DatumDodavanja>2023-03-29T14:47:28.1127256+02:00</DatumDodavanja>
+    <Drzava>Srbija</Drzava>
+    <DatumRodjenja>1994-10-27T00:00:00</DatumRodjenja>
+    <Visina>200</Visina>
+  </Igraci>
+  <Igraci>
+    <BrojIgraca>15</BrojIgraca>
+    <Ime>Miroslav</Ime>
+    <Prezime>Raduljica</Prezime>
+    <Slika>pack://application:,,,/KK Crvena Zvezda;component/Slike/MiroslavRaduljica.png</Slika>
+    <File>MiroslavRaduljica.rtf</File>
+    <DatumDodavanja>2023-03-29T14:50:14.403984+02:00</DatumDodavanja>
+    <Drzava>Srbija</Drzava>
+    <DatumRodjenja>1988-01-05T00:00:00</DatumRodjenja>
+    <Visina>213</Visina>
+  </Igraci>
+  <Igraci>
+    <BrojIgraca>20</BrojIgraca>
+    <Ime>Nikola</Ime>
+    <Prezime>Ivanovic</Prezime>
+    <Slika>pack://application:,,,/KK Crvena Zvezda;component/Slike/NikolaIvanovic.png</Slika>
+    <File>NikolaIvanovic.rtf</File>
+    <DatumDodavanja>2023-03-29T14:53:30.4469967+02:00</DatumDodavanja>
+    <Drzava>Crna Gora</Drzava>
+    <DatumRodjenja>1994-02-19T00:00:00</DatumRodjenja>
+    <Visina>190</Visina>
+  </Igraci>
+  <Igraci>
+    <BrojIgraca>22</BrojIgraca>
+    <Ime>Dalibor</Ime>
+    <Prezime>Ilic</Prezime>
+    <Slika>pack://application:,,,/KK Crvena Zvezda;component/Slike/DaliborIlic.png</Slika>
+    <File>DaliborIlic.rtf</File>
+    <DatumDodavanja>2023-03-29T14:55:53.0282072+02:00</DatumDodavanja>
+    <Drzava>Srbija</Drzava>
+    <DatumRodjenja>2000-03-04T00:00:00</DatumRodjenja>
+    <Visina>205</Visina>
+  </Igraci>
+  <Igraci>
+    <BrojIgraca>26</BrojIgraca>
+    <Ime>Nemanja</Ime>
+    <Prezime>Nedovic</Prezime>
+    <Slika>pack://application:,,,/KK Crvena Zvezda;component/Slike/NemanjaNedovic.png</Slika>
+    <File>NemanjaNedovic.rtf</File>
+    <DatumDodavanja>2023-03-29T14:57:41.47614+02:00</DatumDodavanja>
+    <Drzava>Srbija</Drzava>
+    <DatumRodjenja>1991-06-16T00:00:00</DatumRodjenja>
+    <Visina>191</Visina>
+  </Igraci>
+  <Igraci>
+    <BrojIgraca>27</BrojIgraca>
+    <Ime>Stefan</Ime>
+    <Prezime>Markovic</Prezime>
+    <Slika>pack://application:,,,/KK Crvena Zvezda;component/Slike/StefanMarkovic.png</Slika>
+    <File>StefanMarkovic.rtf</File>
+    <DatumDodavanja>2023-03-29T15:00:13.2543563+02:00</DatumDodavanja>
+    <Drzava>Srbija</Drzava>
+    <DatumRodjenja>1988-04-25T00:00:00</DatumRodjenja>
+    <Visina>197</Visina>
+  </Igraci>
+  <Igraci>
+    <BrojIgraca>32</BrojIgraca>
+    <Ime>Ognjen</Ime>
+    <Prezime>Kuzmic</Prezime>
+    <Slika>pack://application:,,,/KK Crvena Zvezda;component/Slike/OgnjenKuzmic.png</Slika>
+    <File>OgnjenKuzmic.rtf</File>
+    <DatumDodavanja>2023-03-29T15:01:55.854602+02:00</DatumDodavanja>
+    <Drzava>Srbija</Drzava>
+    <DatumRodjenja>1990-05-16T00:00:00</DatumRodjenja>
+    <Visina>214</Visina>
+  </Igraci>
+  <Igraci>
+    <BrojIgraca>33</BrojIgraca>
+    <Ime>Filip</Ime>
+    <Prezime>Petrusev</Prezime>
+    <Slika>pack://application:,,,/KK Crvena Zvezda;component/Slike/FilipPetrusev.png</Slika>
+    <File>FilipPetrusev.rtf</File>
+    <DatumDodavanja>2023-03-29T15:04:17.6040463+02:00</DatumDodavanja>
+    <Drzava>Srbija</Drzava>
+    <DatumRodjenja>2000-04-15T00:00:00</DatumRodjenja>
+    <Visina>211</Visina>
+  </Igraci>
+  <Igraci>
+    <BrojIgraca>50</BrojIgraca>
+    <Ime>Ben</Ime>
+    <Prezime>Bentil</Prezime>
+    <Slika>pack://application:,,,/KK Crvena Zvezda;component/Slike/BenBentil.png</Slika>
+    <File>BenBentil.rtf</File>
+    <DatumDodavanja>2023-03-29T15:06:51.9440451+02:00</DatumDodavanja>
+    <Drzava>Gana</Drzava>
+    <DatumRodjenja>1995-03-02T00:00:00</DatumRodjenja>
+    <Visina>205</Visina>
+  </Igraci>
+</ArrayOfIgraci>

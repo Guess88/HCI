@@ -1,0 +1,24 @@
+D:\Faks\Treca godina\IUIS\PZ1\PZ1\KK Crvena Zvezda\bin\Debug\KK Crvena Zvezda.exe.config
+D:\Faks\Treca godina\IUIS\PZ1\PZ1\KK Crvena Zvezda\bin\Debug\KK Crvena Zvezda.exe
+D:\Faks\Treca godina\IUIS\PZ1\PZ1\KK Crvena Zvezda\bin\Debug\KK Crvena Zvezda.pdb
+D:\Faks\Treca godina\IUIS\PZ1\PZ1\KK Crvena Zvezda\obj\Debug\KK Crvena Zvezda.csproj.AssemblyReference.cache
+D:\Faks\Treca godina\IUIS\PZ1\PZ1\KK Crvena Zvezda\obj\Debug\KK Crvena Zvezda.csproj.SuggestedBindingRedirects.cache
+D:\Faks\Treca godina\IUIS\PZ1\PZ1\KK Crvena Zvezda\obj\Debug\MainWindow.g.cs
+D:\Faks\Treca godina\IUIS\PZ1\PZ1\KK Crvena Zvezda\obj\Debug\App.g.cs
+D:\Faks\Treca godina\IUIS\PZ1\PZ1\KK Crvena Zvezda\obj\Debug\KK Crvena Zvezda_MarkupCompile.cache
+D:\Faks\Treca godina\IUIS\PZ1\PZ1\KK Crvena Zvezda\obj\Debug\KK Crvena Zvezda_MarkupCompile.lref
+D:\Faks\Treca godina\IUIS\PZ1\PZ1\KK Crvena Zvezda\obj\Debug\MainWindow.baml
+D:\Faks\Treca godina\IUIS\PZ1\PZ1\KK Crvena Zvezda\obj\Debug\KK Crvena Zvezda.g.resources
+D:\Faks\Treca godina\IUIS\PZ1\PZ1\KK Crvena Zvezda\obj\Debug\KK_Crvena_Zvezda.Properties.Resources.resources
+D:\Faks\Treca godina\IUIS\PZ1\PZ1\KK Crvena Zvezda\obj\Debug\KK Crvena Zvezda.csproj.GenerateResource.cache
+D:\Faks\Treca godina\IUIS\PZ1\PZ1\KK Crvena Zvezda\obj\Debug\KK Crvena Zvezda.csproj.CoreCompileInputs.cache
+D:\Faks\Treca godina\IUIS\PZ1\PZ1\KK Crvena Zvezda\obj\Debug\KK Crvena Zvezda.exe
+D:\Faks\Treca godina\IUIS\PZ1\PZ1\KK Crvena Zvezda\obj\Debug\KK Crvena Zvezda.pdb
+D:\Faks\Treca godina\IUIS\PZ1\PZ1\KK Crvena Zvezda\obj\Debug\Sadrzaj.g.cs
+D:\Faks\Treca godina\IUIS\PZ1\PZ1\KK Crvena Zvezda\obj\Debug\Sadrzaj.baml
+D:\Faks\Treca godina\IUIS\PZ1\PZ1\KK Crvena Zvezda\obj\Debug\DodajIgraca.g.cs
+D:\Faks\Treca godina\IUIS\PZ1\PZ1\KK Crvena Zvezda\obj\Debug\DodajIgraca.baml
+D:\Faks\Treca godina\IUIS\PZ1\PZ1\KK Crvena Zvezda\obj\Debug\IzmeniIgraca.g.cs
+D:\Faks\Treca godina\IUIS\PZ1\PZ1\KK Crvena Zvezda\obj\Debug\IzmeniIgraca.baml
+D:\Faks\Treca godina\IUIS\PZ1\PZ1\KK Crvena Zvezda\obj\Debug\PrikazSadrzaja.g.cs
+D:\Faks\Treca godina\IUIS\PZ1\PZ1\KK Crvena Zvezda\obj\Debug\PrikazSadrzaja.baml
