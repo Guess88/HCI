@@ -155,7 +155,7 @@ namespace KK_Crvena_Zvezda
                 }
                 else
                 {
-                    MessageBox.Show("Provarite da li ste dobro uneli podatke!","Greska!",MessageBoxButton.OK,MessageBoxImage.Error);
+                    MessageBox.Show("Uneti podaci ne odgovaraju nijednom registrovanom korisniku!","Greska!",MessageBoxButton.OK,MessageBoxImage.Error);
                 }
             }
             else
