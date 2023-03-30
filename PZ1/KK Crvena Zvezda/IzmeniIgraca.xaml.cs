@@ -256,6 +256,13 @@ namespace KK_Crvena_Zvezda
 
                 labelBrojIgraca.Visibility = Visibility.Visible;
             }
+            else if(broj < 0)
+            {
+                result = false;
+                tbBrojIgraca.BorderBrush = Brushes.Red;
+                labelBrojIgraca.Text = "Broj igraca ne moze biti negativan!";
+                labelBrojIgraca.Visibility = Visibility.Visible;
+            }
             else
             {
                 tbBrojIgraca.BorderBrush = Brushes.Gray;
